@@ -180,7 +180,7 @@ class Game{
 					});
 				}
 
-				this.loadingBar.visible = !this.loadingBar.loaded;
+				this.loadingBar.visible = false
 
 				this.setupXR();
 			},
